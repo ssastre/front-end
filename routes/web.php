@@ -22,4 +22,5 @@ Route::get(uri:'/Posts', action:'App\Http\Controllers\PostController@index');
 Route::get(uri:'/ShowTests', action:'App\Http\Controllers\ShowTestTypeController@show');
 Route::post(uri:'/eval-test', action:'App\Http\Controllers\EvalTestController@store');
 Route::get(uri:'/show-results', action:'App\Http\Controllers\ShowResultController@show');
+Route::get(uri:'/Home', action:'App\Http\Controllers\HomeController@index');
 
